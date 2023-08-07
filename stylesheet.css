@@ -1,0 +1,127 @@
+/* Set the H1 heading font and color as well as a boarder
+and changed the case to upper case. */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #f6f0f0;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #333;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: black;/* Set the background color to black*/
+    color: white; /* Set text color to white */
+}
+
+nav a {
+    color: red;/* Set nav link colors to red*/
+}
+/*created for a class used with certain h2 elements*/
+.calligraphy {
+    font-family: 'Edu SA Beginner', cursive; 
+    font-size: 24px;
+    color: #a67f59; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 3px; 
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+/*changes h2 fonts*/
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+/*changed font to different style*/
+p {
+    font-family: 'Edu SA Beginner', cursive; 
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 3px;
+}
+/*setting the atributes of the form box*/
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 4px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: .001in; /* Adjusted margin as needed */
+}
+
+.contact-form label {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 6px;
+}
+
+.contact-form input {
+    flex: 2;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;/*turns the submit button darker blue*/
+}
+a:hover {
+    color: red;
+}  /* causes the hyper links to show red when hovered over*/
+/*set special pages so that I could adjust individual pages*/
+.home-page p {
+    margin-top: .0025px; /* Adjust to move the paragraph up */
+}
+.second-page img {
+    width: 100%; 
+    bottom: 20px; ;
+}
+
+.second-page p {
+    position: absolute;
+    bottom: 20px; 
+}
+.third-page img {
+    width: 100%; /* Adjusted the width as needed */
+    height: 200px;
+}
+.third-page h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+
